@@ -1,0 +1,118 @@
+
+ 
+
+
+body{
+	text-align: center;
+	background-color: #DEB887;
+}
+
+.btn{
+	margin-top: 5%;
+}
+
+#seconds5 {
+	color: #238e23;
+	border: 2px solid  #238e23;
+}
+#seconds5:hover {
+	background-color: #238e23;
+	color:white;
+}	
+
+#seconds30 {
+	border: 2px solid #0000ff;
+	color:#0000ff;
+}
+#seconds30:hover{
+	background-color: #0000ff;
+	color:white;
+}
+
+
+#minute1 {
+	color:#ffff00;
+	border: 2px solid #ffff00;
+}
+
+#minute1:hover {
+	color:white;
+	background-color:#ffff00 ;
+}
+
+#minutes2{
+	color:#ff1a1a;
+	border: 2px solid #ff1a1a;
+}
+#minutes2:hover {
+	color:white;
+	background-color: #ff1a1a;
+}
+
+#reset {
+	color:black;
+	border-color: black;
+}
+#reset:hover{
+	background-color: black;
+	color:white;
+}
+
+.btn:disabled{
+	background-color: #303030;
+	border: #303030;
+	color: white;
+}
+
+.result {
+	display: none;
+}
+
+.result-finished {
+	display: inline-block;
+}
+
+.bottom{
+	padding-top: 5%;
+}
+
+#timeleft{
+	font-size: 5rem;
+}
+
+h1{
+	left: 50%;
+}
+
+footer {
+	position: fixed;     
+	bottom:0px;
+	width: 100%; 
+}
+.fa {
+	padding-bottom: 1%;
+}
+.fa-github{
+	scale: 2;
+	padding-left:5px;
+	padding-right:5px;
+}
+
+
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+@media (max-width: 767.98px) {
+	.col-xs-4{
+		width: 50%;
+	}
+	h1{
+		font-size: 28px;
+	}
+	h5{
+		font-size: 15px;
+	}
+}

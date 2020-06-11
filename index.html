@@ -1,0 +1,76 @@
+<html>
+<head>
+	<title>Click Count By Sebastien</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="./CSS/index.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<meta name="viewport" content="width=device-width, initial-scale = 1.0">
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+	<div class="container" >
+		<h1>How fast can you click on the button ? </h1>
+		<h5>Choose one button to select the amount of time you would like</h5>
+
+		<div class="row justify-content-center">
+			<div class="col-md-3 col-xs-4">
+				<button id="seconds5" class="btn btn-outline-primary btn-lg"> 5 Seconds</button>				
+			</div>
+			<div class="col-md-3 col-xs-4">
+				<button id="seconds30" class="btn btn-outline-primary btn-lg"> 30 Seconds</button>				
+			</div>
+			<div class="col-md-3 col-xs-4">
+				<button id="minute1" class="btn btn-outline-primary btn-lg"> 1 Minute </button>				
+			</div>
+			<div class="col-md-3 col-xs-4">
+				<button id="minutes2" class="btn btn-outline-primary btn-lg"> 2 Minutes</button>				
+			</div>
+			<div class="col-md-12 col-sm-6">
+				<button id="reset" class="btn btn-outline-primary btn-lg reset"> RESET</button>				
+			</div>
+			
+		</div>
+
+		<button id="ClickButton" class="btn btn-primary btn-block"> Click here </button>
+
+	</div>
+		
+
+
+	<div class="container bottom">
+		<div class="row">
+			<div class="col-md-6 col-sm-12">
+				<p id='timeleft'>0 </p>				
+			</div>		
+			<div class="col-md-6 col-sm-12">
+				<div class="result">
+		  			<p> Number of clicks you have made : <span id='clickFinal'> 0 </span> </p>
+				  	<p> Average number of clicks in 1 minute  : <span id='avg1m'> 0 </span> </p>
+				  	<p> Average number of clicks per second  : <span id='avg1s'> 0 </span> </p>
+				</div>  
+			</div>	
+		</div>
+	</div>
+
+<footer>
+	<a href="https://github.com/Sebast2711/WebChallenges/tree/master/clickController" target="_blank"> 
+		<i class="fas fa-arrow-right"></i>
+		<i class="fa fa-github" aria-hidden="true"></i>
+		<i class="fas fa-arrow-left"></i>
+	</a>
+
+</footer>
+    
+
+    <script type="text/javascript" src="./js/main.js"></script>   
+
+
+</body>
+</html>
